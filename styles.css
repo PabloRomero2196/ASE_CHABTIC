@@ -45,6 +45,10 @@ h1{
     color: #fff;
 }
 
+nav h2{
+display: none;
+}
+
 .nav ul{
     list-style-type: none;
     overflow: hidden;
