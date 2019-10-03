@@ -92,5 +92,16 @@ nav li :hover{
 #certificaciones ul{
     list-style: none;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#colaboradores{
+    text-align: center;
+    padding: 40px;
+}
+
+#colaboradores ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
