@@ -30,6 +30,10 @@ h2{
     grid-template-columns: 3fr 9fr;
 }
 
+.imgCien{
+    width: 100%;
+}
+
 h1{
     text-indent: -999px;
     display: inline-block;
@@ -87,4 +91,6 @@ nav li :hover{
 
 #certificaciones ul{
     list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
