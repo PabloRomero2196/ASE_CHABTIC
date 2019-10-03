@@ -4,6 +4,26 @@
 
 }
 
+strong{
+    color: #634d3a;
+    font-style: bold;
+}
+
+h2{
+    text-align: center;
+}
+
+.verMas{
+    background: #fcdf5e;
+    border-radius: 15px;
+    border: none; 
+}
+
+.bordeInferior{
+    border: solid #222 ;
+    border-width: 0px 0px 3px 0px;
+   }
+
 .header{
     background: #000;
     display: grid;
@@ -28,6 +48,8 @@ h1{
 .nav ul{
     list-style-type: none;
     overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 nav li{
@@ -47,7 +69,18 @@ nav li :hover{
     text-decoration: none;
 }
 
-.nuestraMiel{
- border: solid #222;
- background: red;
+#nuestraMiel{
+    display: grid;
+    padding: 40px;
+    grid-template-columns: 1fr 1fr;
+}
+
+#certificaciones{
+    text-align: center;
+    padding: 40px;
+}
+
+
+#certificaciones ul{
+    list-style: none;
 }
