@@ -135,3 +135,22 @@ nav li :hover{
 #recetas{
     text-align: center;
 }
+
+aside{
+    background: #000;
+    color: #fff;
+}
+
+aside ul{
+    list-style-type: none;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer{
+    margin: none;
+    background: #000;
+    color: #fff;
+}
+
