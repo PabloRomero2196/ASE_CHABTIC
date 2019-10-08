@@ -19,6 +19,10 @@ h2{
     border: none; 
 }
 
+.verMas:hover{
+    font-size: large;
+}
+
 .bordeInferior{
     border: solid #222 ;
     border-width: 0px 0px 3px 0px;
@@ -28,6 +32,7 @@ h2{
     background: #000;
     display: grid;
     grid-template-columns: 3fr 9fr;
+    font-size: 1.3vw;
 }
 
 .imgCien{
@@ -39,7 +44,7 @@ h1{
     display: inline-block;
     position:relative;  
     
-    background: url('recursos/imgIcon.png') 0 0 no-repeat;
+    background: url('recursos/chabticLogo.png') 0 0 no-repeat;
     margin:0 25px;
     padding:10px 10px;
 }
@@ -104,4 +109,29 @@ nav li :hover{
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+#nuestrosProductos article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 35px;
+}
+
+#nuestrosProductos div{
+    margin: 10px;
+}
+
+#nuestrosProductos button{
+    background: #fcdf5e;
+    border: none;
+    width: 100%;
+}
+
+#cuidadoAbejas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#recetas{
+    text-align: center;
 }
