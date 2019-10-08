@@ -1,23 +1,59 @@
 .body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-
 }
+
+.displayNo{
+    display: none;
+}
+
+strong{
+    color: #634d3a;
+    font-style: bold;
+}
+
+h2{
+    text-align: center;
+}
+
+.verMas{
+    background: #fcdf5e;
+    border-radius: 15px;
+    border: none; 
+}
+
+.verMas:hover{
+    font-size: large;
+}
+
+.bordeInferior{
+    border: solid #222 ;
+    border-width: 0px 0px 3px 0px;
+   }
 
 .header{
     background: #000;
     display: grid;
     grid-template-columns: 3fr 9fr;
+    font-size: 1.3vw;
+}
+
+.imgCien{
+    width: 100%;
 }
 
 h1{
     text-indent: -999px;
     display: inline-block;
     position:relative;  
-    
-    background: url('recursos/imgIcon.png') 0 0 no-repeat;
+    background: url('img/preuba.png') 0 0 no-repeat;
     margin:0 25px;
     padding:10px 10px;
+    background-size: contain;
+}
+
+h1 a {
+    height: 100%;
 }
 
 
@@ -25,9 +61,15 @@ h1{
     color: #fff;
 }
 
+nav h2{
+display: none;
+}
+
 .nav ul{
     list-style-type: none;
     overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 nav li{
@@ -47,7 +89,80 @@ nav li :hover{
     text-decoration: none;
 }
 
-.nuestraMiel{
- border: solid #222;
- background: red;
+#nuestraMiel{
+    display: grid;
+    padding: 40px;
+    grid-template-columns: 1fr 1fr;
 }
+
+#certificaciones{
+    text-align: center;
+    padding: 40px;
+}
+
+
+#certificaciones ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#colaboradores{
+    text-align: center;
+    padding: 40px;
+}
+
+#colaboradores ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#nuestrosProductos article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 35px;
+}
+
+#nuestrosProductos div{
+    margin: 10px;
+}
+
+#nuestrosProductos button{
+    background: #fcdf5e;
+    border: none;
+    width: 100%;
+}
+
+#cuidadoAbejas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#recetas{
+    text-align: center;
+}
+
+#redes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+aside{
+    background: #000;
+    color: #fff;
+}
+
+aside ul{
+    list-style-type: none;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer{
+    margin: none;
+    background: #000;
+    color: #fff;
+}
+
