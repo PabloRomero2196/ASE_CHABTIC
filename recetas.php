@@ -7,18 +7,9 @@
     <title>Recetas</title>
 </head>
     <body class="body">
-    <header class="header">
-        <h1>Chabtic</h1>
-        <nav class="nav">
-            <ul>
-                <li><a href="###" class="navA">INICIO</a></li>
-                <li><a href="###" class="navA">NUESTRA CASA</a></li>
-                <li><a href="###" class="navA">PRODUCTOS</a></li>
-                <li><a href="###" class="navA">RECETAS</a></li>
-                <li><a href="###" class="navA">CONTACTO</a></li>
-            </ul>
-        </nav>
-    </header>
+
+    <?php include 'header.php' ?> <!--INCLUIR HEADER-->    
+
         <h2>RECETAS</h2>
         <p>A continuación presentaremos recetas orgánicas hechas con nuestra miel orgánica Chabtic lo brindará un <strong>color, textura y sabor exquisito</strong> </p>
         <!--RECTEAS DE LA ABUELA-->
