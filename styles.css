@@ -34,7 +34,7 @@ h2{
 .header{
     background: #000;
     display: grid;
-    grid-template-columns: 3fr 9fr;
+    grid-template-columns: 1fr 7fr;
     font-size: 1.3vw;
 }
 
@@ -47,8 +47,7 @@ h1{
     display: inline-block;
     position:relative;  
     background: url('img/preuba.png') 0 0 no-repeat;
-    margin:0 25px;
-    padding:10px 10px;
+    margin:10px ;
     background-size: contain;
 }
 
@@ -67,6 +66,7 @@ display: none;
 
 .nav ul{
     list-style-type: none;
+    margin: 0px;
     overflow: hidden;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -78,7 +78,7 @@ nav li{
 
 nav li :hover{
     background: #111;
-    color: darkorange;
+    color: #fcdf5e;
 }
 
 .navA{
@@ -118,6 +118,11 @@ nav li :hover{
     grid-template-columns: 1fr 1fr;
 }
 
+#nuestrosProductos{
+    padding: 40px;
+}
+
+
 #nuestrosProductos article{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -134,13 +139,18 @@ nav li :hover{
     width: 100%;
 }
 
-#cuidadoAbejas {
+#cuidadoAbejas{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
+#cuidadoAbejas div:nth-of-type(1){
+    padding: 40px;
+}
+
 #recetas{
     text-align: center;
+    padding: 40px;
 }
 
 #redes{
@@ -151,18 +161,47 @@ nav li :hover{
 aside{
     background: #000;
     color: #fff;
+    text-align: center;
 }
 
 aside ul{
+    margin: auto;
     list-style-type: none;
     overflow: hidden;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+aside li{
+    padding: 10px;
+}
+
+li a{
+    width: 100%;
+    height: 100%;
+}
+
+aside li:hover{
+    background: #111;
+    color: #fcdf5e;
 }
 
 footer{
+    text-align: center;
     margin: none;
     background: #000;
     color: #fff;
 }
 
+footer ul{
+    list-style-type: none;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
