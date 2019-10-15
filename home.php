@@ -11,6 +11,7 @@
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
     <title>Chabtic</title>
 </head>
 
@@ -57,7 +58,7 @@
             </div>
         </div>
 
-        <section class="bordeInferior" id="nuestraMiel">
+        <section class="nuestraMiel">
             <!--NUESTRA MIEL-->
             <div>
                 <h2>NUESTRA MIEL</h2>
@@ -71,16 +72,16 @@
             </div>
         </section>
 
-        <section class="bordeInferior" id="certificaciones">
+        <section class="certificaciones">
             <!--CERTIFICACIONES-->
             <h2>CERTIFICACIONES</h2>
             <p>Nuestros productos están certificados por los procesos <strong>100% ecológicos y orgánicos</strong> que tienen. </p>
             <ul>
                 <li>
-                    <figure><img src="img/logo_idk.png" alt="..." class="imgCien"></figure>
+                    <figure><img src="img/logo_idk.jpg" alt="..." class="imgCien"></figure>
                 </li>
                 <li>
-                    <figure><img src="img/logo_usda.png" alt="..." class="imgCien"></figure>
+                    <figure><img src="img/logo_usda.jpg" alt="..." class="imgCien"></figure>
                 </li>
                 <li>
                     <figure><img src="img/logo_certimex.jpg" alt="..." class="imgCien"></figure>
@@ -91,12 +92,12 @@
             </ul>
         </section>
 
-        <section class="bordeInferior" id="colaboradores">
+        <section class="colaboradores">
             <!--COLABORADORES-->
             <h2>COLABORADORES</h2>
             <ul>
                 <li>
-                    <figure><img src="img/logo_apricot.png" alt="..." class="imgCien"></figure>
+                    <figure><img src="img/logo_apricot.jpg" alt="..." class="imgCien"></figure>
                 </li>
                 <li>
                     <figure><img src="img/logo_capeltic.jpg" alt="..." class="imgCien"></figure>
@@ -104,7 +105,7 @@
             </ul>
         </section>
 
-        <section class="bordeInferior" id="nuestrosProductos">
+        <section class="nuestrosProductos">
             <!--NUESTROS PRODUCTOS-->
             <h2>ADQUIERE NUESTROS PRODUCTOS EN...</h2>
             <article>
@@ -120,7 +121,7 @@
 
         </section>
 
-        <section class="bordeInferior" id="cuidadoAbejas">
+        <section class="cuidadoAbejas">
             <!--CUIDADO DE LAS ABEJAS-->
             <div>
                 <h2>CUIDADO DE LAS ABEJAS</h2>

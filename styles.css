@@ -26,11 +26,6 @@ h2{
     font-size: large;
 }
 
-.bordeInferior{
-    border: solid #222 ;
-    border-width: 0px 0px 3px 0px;
-   }
-
 .header{
     background: #000;
     display: grid;
@@ -89,72 +84,82 @@ nav li :hover{
     text-decoration: none;
 }
 
-#nuestraMiel{
+.nuestraMiel{
     display: grid;
     padding: 40px;
     grid-template-columns: 1fr 1fr;
+    border: solid #222 ;
+    border-width: 0px 0px 3px 0px;
 }
 
-#certificaciones{
+.certificaciones{
+    border: solid #222 ;
+    border-width: 0px 0px 3px 0px;
     text-align: center;
     padding: 40px;
 }
 
 
-#certificaciones ul{
+.certificaciones ul{
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-#colaboradores{
+.colaboradores{
+    border: solid #222 ;
+    border-width: 0px 0px 3px 0px;
     text-align: center;
     padding: 40px;
 }
 
-#colaboradores ul{
+.colaboradores ul{
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: auto;
 }
 
-#nuestrosProductos{
+.nuestrosProductos{
+    border: solid #222 ;
+    border-width: 0px 0px 3px 0px;
     padding: 40px;
 }
 
 
-#nuestrosProductos article{
+.nuestrosProductos article{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 35px;
 }
 
-#nuestrosProductos div{
+.nuestrosProductos div{
     margin: 10px;
 }
 
-#nuestrosProductos button{
+.nuestrosProductos button{
     background: #fcdf5e;
     border: none;
     width: 100%;
 }
 
-#cuidadoAbejas{
+.cuidadoAbejas{
+    border: solid #222 ;
+    border-width: 0px 0px 3px 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-#cuidadoAbejas div:nth-of-type(1){
+.cuidadoAbejas div:nth-of-type(1){
     padding: 40px;
 }
 
-#recetas{
+.recetas{
     text-align: center;
     padding: 40px;
 }
 
-#redes{
+.redes{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
