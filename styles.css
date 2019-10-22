@@ -175,10 +175,9 @@
     
     .redes{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         border: solid #222 ;
         border-width: 0px 0px 3px 0px;
-        
     }
 
     
@@ -274,6 +273,11 @@
 
       .verMas{
           font-size: 15px;
+      }
+
+      .redes{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
       }
 
   }
