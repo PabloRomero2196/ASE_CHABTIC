@@ -16,7 +16,7 @@
 
 <body>
     <header class="header">
-        <h1><a href="self/home">Chabtic</a></h1>
+        <h1><a href="/index.php" target="_selt">Chabtic</a></h1>
         <nav class="nav">
             <h2>BARRA DE NAVEGACIÓN</h2>
 
@@ -24,20 +24,20 @@
                     <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
                     <span class="caret"></span></button>
                     <ul class="dropdown-menu">
-                      <li><a href="/index.html" target="_self">INICIO</a></li>
+                      <li><a href="/index.php" target="_self">INICIO</a></li>
                       <li><a href="..." target="_self">NUESTRA CASA</a></li>
-                      <li><a href="/productos.html" target="_self">PRODUCTOS</a></li>
-                      <li><a href="/recetas.html" target="_self">RECETAS</a></li>
-                      <li><a href="/contacto.html" target="_self">CONTACTO</a></li>
+                      <li><a href="/productos.php" target="_self">PRODUCTOS</a></li>
+                      <li><a href="/recetas.php" target="_self">RECETAS</a></li>
+                      <li><a href="/contacto.php" target="_self">CONTACTO</a></li>
                     </ul>
                   </div>
             </div>
 
             <ul class="desktopNav">
-                <li><a href="/index.html" target="_self" class="navA">INICIO</a></li>
+                <li><a href="/index.php" target="_self" class="navA">INICIO</a></li>
                 <li><a href="..." target="_self" class="navA">NUESTRA CASA</a></li>
-                <li><a href="/productos.html" target="_self" class="navA">PRODUCTOS</a></li>
-                <li><a href="/recetas.html" target="_self" class="navA">RECETAS</a></li>
+                <li><a href="/productos.php" target="_self" class="navA">PRODUCTOS</a></li>
+                <li><a href="/recetas.php" target="_self" class="navA">RECETAS</a></li>
                 <li><a href="/contacto" target="_self" class="navA">CONTACTO</a></li>
             </ul>
         </nav>
