@@ -1,4 +1,8 @@
 
+
+img{
+    width: 100%;
+}
   
 @media only screen and (min-width: 320px) { /* For mobile: */
     body {
@@ -39,10 +43,7 @@
         grid-template-columns: 1fr 7fr;
         font-size: 1.3vw;
     }
-    
-    .imgCien{
-        width: 100%;
-    }
+
     
     h1{
         text-indent: -999px;
@@ -52,7 +53,8 @@
         margin:10px ;
         background-size: contain;
     }
-    
+
+
     h1 a {
         height: 100%;
     }
@@ -98,7 +100,10 @@
         border: solid #222 ;
         border-width: 0px 0px 3px 0px;
     }
-    
+    .nuestraMiel > div:nth-child(1){
+    padding-right: 20px;
+    }
+
     .certificaciones{
         border: solid #222 ;
         border-width: 0px 0px 3px 0px;
@@ -111,6 +116,7 @@
         list-style: none;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0px;
     }
     
     .colaboradores{
@@ -123,8 +129,9 @@
     .colaboradores ul{
         list-style: none;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         margin: auto;
+        padding: none;;
     }
     
     
@@ -149,6 +156,7 @@
         background: #fcdf5e;
         border: none;
         width: 100%;
+       padding: 10px;
     }
     
     .cuidadoAbejas{
@@ -236,19 +244,25 @@
     .footer i{
         font-size: 30px;
     }
+
+    .footer figure{
+        margin: 10px auto;
+        width: 15%;
+    }
     
     .footer ul{
         list-style-type: none;
         overflow: hidden;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding-left: 0px;
     }
+
     
     .footer div{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        height: 50px;
-        overflow: hidden;
     }
     
     
@@ -271,8 +285,13 @@
         font-size: 15px;
       }
 
+      .puntosDeVenta figure{
+          margin: 0px;
+      }
+    
       .verMas{
           font-size: 15px;
+          margin: 15px;
       }
 
       .redes{

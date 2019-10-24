@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
     <title>Chabtic</title>
 </head>
-
 <body class="body">
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v4.0"></script>
@@ -69,7 +68,7 @@
                 <button class="verMas">VER MÁS</button>
             </div>
             <div>
-                <figure><img src="img/cara_abejas.png" alt="icono" class="imgCien"></figure>
+                <figure><img src="img/cara_abejas.png" alt="icono"></figure>
             </div>
         </section>
 
@@ -79,16 +78,16 @@
             <p>Nuestros productos están certificados por los procesos <strong>100% ecológicos y orgánicos</strong> que tienen. </p>
             <ul>
                 <li>
-                    <figure><img src="img/logo_idk.jpg" alt="..." class="imgCien"></figure>
+                    <figure><img src="img/logo_idk.jpg" alt="..."></figure>
                 </li>
                 <li>
-                    <figure><img src="img/logo_usda.jpg" alt="..." class="imgCien"></figure>
+                    <figure><img src="img/logo_usda.jpg" alt="..."></figure>
                 </li>
                 <li>
-                    <figure><img src="img/logo_certimex.jpg" alt="..." class="imgCien"></figure>
+                    <figure><img src="img/logo_certimex.jpg" alt="..."></figure>
                 </li>
                 <li>
-                    <figure><img src="img/logo_sagarpa.jpg" alt="..." class="imgCien"></figure>
+                    <figure><img src="img/logo_sagarpa.jpg" alt="..."></figure>
                 </li>
             </ul>
         </section>
@@ -109,7 +108,7 @@
                 <button class="verMas">VER MÁS</button>
             </div>
             <div>
-                <figure><img src="img/manos_abejas.png" alt="icono" class="imgCien"></figure>
+                <figure><img src="img/manos_abejas.png" alt="icono"></figure>
             </div>
         </section>
 
@@ -117,7 +116,7 @@
             <!--RECETAS-->
             <h2>RECETAS</h2>
             <p>A continuación presentaremos recetas orgánicas hechas con nuesta miel orgánica Chabtic para brindar <strong>color, textura y sabor a tus paltillos.</strong></p>
-            <figure><img src="img/recetas.png" alt="recetas" class="imgCien"></figure>
+            <figure><img src="img/recetas.png" alt="recetas"></figure>
             <button class="verMas">VER MAS</button>
         </section>
 
