@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="stylesheet" type="text/css" href="dropdown.css" />
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <title>Document</title>
 </head>
 
@@ -18,22 +14,28 @@
     <header class="header">
         <h1><a href="/index.php" target="_selt">Chabtic</a></h1>
         <nav class="nav">
-            <h2>BARRA DE NAVEGACIÓN</h2>
+            <h2 class="displayNo">BARRA DE NAVEGACIÓN</h2>
+                <div class="outer-menu">
+                    <input class="checkbox-toggle" type="checkbox" />
+                    <div class="hamburger">
+                        <div></div>
+                    </div>
+                    <div class="menu">
+                        <div>
+                            <div>
+                                <ul>
+                                    <li><a href="#">INICIO</a></li>
+                                    <li><a href="#">NUESTRA CASA</a></li>
+                                    <li><a href="#">PRODUCTOS</a></li>
+                                    <li><a href="#">RECETAS</a></li>
+                                    <li><a href="#">CONTACTO</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="dropdown">
-                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
-                    <span class="caret"></span></button>
-                    <ul class="dropdown-menu">
-                      <li><a href="/home.php" target="_self">INICIO</a></li>
-                      <li><a href="nuestra_casa.php" target="_self">NUESTRA CASA</a></li>
-                      <li><a href="/productos_chabtic.php" target="_self">PRODUCTOS</a></li>
-                      <li><a href="/recetas.php" target="_self">RECETAS</a></li>
-                      <li><a href="/contacto.php" target="_self">CONTACTO</a></li>
-                    </ul>
-                  </div>
-            </div>
-
-            <ul class="desktopNav">
+            <ul class="listaNav">
                 <li><a href="/index.php" target="_self" class="navA">INICIO</a></li>
                 <li><a href="..." target="_self" class="navA">NUESTRA CASA</a></li>
                 <li><a href="/productos.php" target="_self" class="navA">PRODUCTOS</a></li>

@@ -1,313 +1,250 @@
-
-
-img{
-    width: 100%;
+img {
+	width: 100%;
 }
-  
-@media only screen and (min-width: 320px) { /* For mobile: */
-    body {
-        /* background-color: #eee; */
-        font-size: 10px;
-      }
-      .body{
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    .displayNo{
+@media only screen and (min-width: 320px){
+	/* For mobile: */
+	body {
+        background: olive;
+    	font-size: 10px;
+	}
+	.body {
+		margin: 0;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.displayNo {
+		display: none;
+	}
+	strong {
+		color: #634d3a;
+		font-style: bold;
+	}
+	h2 {
+		text-align: center;
+	}
+	.verMas {
+		background: #fcdf5e;
+		border-radius: 15px;
+		border: none;
+	}
+	.verMas:hover {
+		font-size: large;
+	}
+	.header {
+		background: #000;
+		display: grid;
+		grid-template-columns: 1fr 7fr;
+		font-size: 1.3vw;
+	}
+	h1 {
+		text-indent: -999px;
+		display: inline-block;
+		position: relative;
+		background: url('img/preuba.png') 0 0 no-repeat;
+		margin: 10px;
+		background-size: contain;
+	}
+	h1 a {
+		height: 100%;
+	}
+	.nav {
+		color: #fff;
+	}
+	.nav ul {
+		list-style-type: none;
+		margin: 5px;
+		overflow: hidden;
+		display: none;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	}
+	.nav li {
+		float: left;
+	}
+	.nav li :hover {
+		background: #111;
+		color: #fcdf5e;
+	}
+	.navA {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 16px;
+		text-decoration: none;
+	}
+	.nuestraMiel {
         display: none;
-    }
-    
-    strong{
-        color: #634d3a;
-        font-style: bold;
-    }
-    
-    h2{
-        text-align: center;
-    }
-    
-    .verMas{
-        background: #fcdf5e;
-        border-radius: 15px;
-        border: none; 
-    }
-    
-    .verMas:hover{
-        font-size: large;
-    }
-    
-    .header{
-        background: #000;
-        display: grid;
-        grid-template-columns: 1fr 7fr;
-        font-size: 1.3vw;
-    }
+	}
+	.nuestraMiel>div:nth-child(1) {
+		padding-right: 20px;
+	}
+	.certificaciones {
+		border: solid #222;
+		border-width: 0px 0px 3px 0px;
+		text-align: center;
+		padding: 40px;
+	}
+	.certificaciones ul {
+		list-style: none;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		padding: 0px;
+	}
+	.colaboradores {
+		border: solid #222;
+		border-width: 0px 0px 3px 0px;
+		text-align: center;
+		margin: 10px;
+	}
+	.colaboradores ul {
+		list-style: none;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		margin: auto;
+		padding: none;
+		;
+	}
+	.puntosDeVenta {
+		border: solid #222;
+		border-width: 0px 0px 3px 0px;
+		padding: 1px;
+	}
+	.puntosDeVenta article {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.puntosDeVenta div {
+		margin: 10px;
+	}
+	.puntosDeVenta button {
+		background: #fcdf5e;
+		border: none;
+		width: 100%;
+		padding: 10px;
+	}
+	.cuidadoAbejas {
+		border: solid #222;
+		border-width: 0px 0px 3px 0px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.cuidadoAbejas div:nth-of-type(1) {
+		padding: 40px;
+	}
+	.recetas {
+		text-align: center;
+		margin: 10px;
+		border: solid #222;
+		border-width: 0px 0px 3px 0px;
+	}
+	.recetas>p {
+		padding: 10px;
+	}
+	.redes {
+		display: grid;
+		grid-template-columns: 1fr;
+		border: solid #222;
+		border-width: 0px 0px 3px 0px;
+	}
+	li a {
+		width: 100%;
+		height: 100%;
+	}
+	.aside {
+		text-decoration: none;
+		background: #000;
+		text-align: center;
+	}
+	.aside a {
+		color: #fff;
+		text-decoration: none;
+		font-size: 10px;
+	}
+	.aside a :hover {
+		color: #fcdf5e;
+	}
+	.aside ul {
+		margin: auto;
+		list-style-type: none;
+		overflow: hidden;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		padding: 10px;
+	}
+	.aside li:hover {
+		background: #111;
+	}
+	.footer {
+		text-align: center;
+		margin: none;
+		background: #000;
+		color: #fff;
+	}
+	.footer a {
+		color: #fff;
+		text-decoration: none;
+	}
+	.footer i {
+		font-size: 30px;
+	}
+	.footer figure {
+		margin: 10px auto;
+		width: 15%;
+	}
+	.footer ul {
+		list-style-type: none;
+		overflow: hidden;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: center;
+		padding-left: 0px;
+	}
+	.footer div {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}
 
-    
-    h1{
-        text-indent: -999px;
-        display: inline-block;
-        position:relative;  
-        background: url('img/preuba.png') 0 0 no-repeat;
-        margin:10px ;
-        background-size: contain;
+@media only screen and (min-width: 768px) {
+	/* For tablets: */
+	body {
+		background-color: #c73838;
+		font-size: 14px;
     }
+	.nav ul {
+		list-style-type: none;
+		margin: 5px;
+		overflow: hidden;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	}
+	.puntosDeVenta button {
+		font-size: 15px;
+	}
+	.puntosDeVenta figure {
+		margin: 0px;
+	}
+	.verMas {
+		font-size: 15px;
+		margin: 15px;
+	}
+	.redes {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+    }
+    .outer-menu {/*DROPDOWN MENU*/
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1920px) {
+	/* For desktop: */
+	body {
+		background-color: #2c2caf;
+		font-size: 18px;
+	}
+	.outer-menu {/*DROPDOWN MENU*/
+		display: none;
+	}
+}
 
 
-    h1 a {
-        height: 100%;
-    }
-    
-    
-    .nav{
-        color: #fff;
-    }
-    
-    nav h2{
-    display: none;
-    }
-    
-    .nav ul{
-        list-style-type: none;
-        margin: 5px;
-        overflow: hidden;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
-    
-    nav li{
-        float: left;
-    }
-    
-    nav li :hover{
-        background: #111;
-        color: #fcdf5e;
-    }
-    
-    .navA{
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 16px;
-        text-decoration: none;
-    }
-    
-    .nuestraMiel{
-        display: grid;
-        padding: 40px;
-        grid-template-columns: 1fr 1fr;
-        border: solid #222 ;
-        border-width: 0px 0px 3px 0px;
-    }
-    .nuestraMiel > div:nth-child(1){
-    padding-right: 20px;
-    }
 
-    .certificaciones{
-        border: solid #222 ;
-        border-width: 0px 0px 3px 0px;
-        text-align: center;
-        padding: 40px;
-    }
-    
-    
-    .certificaciones ul{
-        list-style: none;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        padding: 0px;
-    }
-    
-    .colaboradores{
-        border: solid #222 ;
-        border-width: 0px 0px 3px 0px;
-        text-align: center;
-        margin: 10px;
-    }
-    
-    .colaboradores ul{
-        list-style: none;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        margin: auto;
-        padding: none;;
-    }
-    
-    
-    
-    .puntosDeVenta{
-        border: solid #222 ;
-        border-width: 0px 0px 3px 0px;
-        padding: 1px;
-    }
-    
-    
-    .puntosDeVenta article{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    
-    .puntosDeVenta div{
-        margin: 10px;
-    }
-    
-    .puntosDeVenta button{
-        background: #fcdf5e;
-        border: none;
-        width: 100%;
-       padding: 10px;
-    }
-    
-    .cuidadoAbejas{
-        border: solid #222 ;
-        border-width: 0px 0px 3px 0px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    
-    .cuidadoAbejas div:nth-of-type(1){
-        padding: 40px;
-    }
-    
-    .recetas{
-        text-align: center;
-        margin: 10px;
-        border: solid #222 ;
-        border-width: 0px 0px 3px 0px;
-    }
-    
-    .recetas>p{
-        padding: 10px;
-    }
-    
-    .redes{
-        display: grid;
-        grid-template-columns: 1fr;
-        border: solid #222 ;
-        border-width: 0px 0px 3px 0px;
-    }
-
-    
-    li a{
-        width: 100%;
-        height: 100%;
-    }
-    
-    .aside{
-        text-decoration: none;
-        background: #000;
-        text-align: center;
-    }
-    
-    .aside a{
-        color: #fff;
-        text-decoration: none;
-        font-size: 10px;
-    
-    }
-    
-    .aside a :hover{
-        color: #fcdf5e;
-    }
-    
-    .aside ul{
-        margin: auto;
-        list-style-type: none;
-        overflow: hidden;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        padding: 10px;
-    }
-    
-    .aside li{
-        /* padding: 10px; */
-    }
-    
-    
-    .aside li:hover{
-        background: #111;
-    }
-    
-    .footer{
-        text-align: center;
-        margin: none;
-        background: #000;
-        color: #fff;
-    }
-    
-    .footer a{
-        color: #fff;
-        text-decoration: none;
-    }
-    
-    .footer i{
-        font-size: 30px;
-    }
-
-    .footer figure{
-        margin: 10px auto;
-        width: 15%;
-    }
-    
-    .footer ul{
-        list-style-type: none;
-        overflow: hidden;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        padding-left: 0px;
-    }
-
-    
-    .footer div{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    
-    
-      .desktopNav{
-          display: none;
-      }
-  }
-
-  @media only screen and (min-width: 600px) { /* For tablets: */
-    body {
-        /* background-color: #ddd; */
-        font-size: 14px;
-      }
-
-      .dropdown{
-          display: none;
-      }
-
-      .puntosDeVenta button{
-        font-size: 15px;
-      }
-
-      .puntosDeVenta figure{
-          margin: 0px;
-      }
-    
-      .verMas{
-          font-size: 15px;
-          margin: 15px;
-      }
-
-      .redes{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-      }
-
-  }
-  
-  @media only screen and (min-width: 768px) {/* For desktop: */
-    body {
-        /* background-color: #ccc; */
-        font-size: 18px;
-      }
-
-      .dropdown{
-          display: none;
-      }
-  }

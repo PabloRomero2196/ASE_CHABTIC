@@ -14,7 +14,6 @@
 <body>
 
     <aside class="aside">
-        <h2 class="displayNo">Navegación Alterna</h2>
         <ul>
             <li><a href="/recetas.php" target="_self">RECETAS</a></li>
             <li><a href="/recetas.php" target="_self">NUESTRA CASA</a></li>
@@ -24,7 +23,6 @@
     </aside>
 
     <footer class="footer">
-        <h2 class="displayNo">footer</h2>
         <div>
             <figure><img src="img/preuba.png" alt=""></figure>
             <ul>
