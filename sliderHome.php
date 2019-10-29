@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="slider.css">
     <title>Slider</title>
 </head>
+
 <body>
     <div class="container">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -22,15 +24,15 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="img/abejas.jpg" alt="Imagen de abejas" style="width:100%;">
+                    <img src="img/slider1.jpg" alt="Imagen de abejas" style="width:100%;">
                 </div>
 
                 <div class="item">
-                    <img src="img/abejas2.jpg" alt="Imagen de abejas en panal" style="width:100%;">
+                    <img src="img/slider2.jpg" alt="Imagen de abejas en panal" style="width:100%;">
                 </div>
 
                 <div class="item">
-                    <img src="img/apicultor.jpg" alt="New york" style="width:100%;">
+                    <img src="img/slider3.jpg" alt="New york" style="width:100%;">
                 </div>
             </div>
 
@@ -46,4 +48,5 @@
         </div>
     </div>
 </body>
+
 </html>
