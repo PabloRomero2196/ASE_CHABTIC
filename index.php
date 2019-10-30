@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="es" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +9,8 @@
     <link rel="stylesheet" type="text/css" href="dropdown.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="slider.css">    <script src="https://kit.fontawesome.com/1a6576ed2d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="slider.css">    
+    <script src="https://kit.fontawesome.com/1a6576ed2d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
     <title>Chabtic</title>
 </head>
@@ -30,7 +30,7 @@
                 <p>Chabtic es una empresa productora y comercializadora de miel de abeja, orgánica certificada. Producto del trabajo de la coperativa <strong>Ts'umbal Xitalha'</strong>, conformada por familias tseltales apicultoras en la Selva Norte de Chiapas, México.</p>
                 <br>
                 <p>Nuestra miel es cultivada entre la diversidad de la flora local y en armonía con la Madre Tierra, lo que brinda un color, textura y sabor exquisito.</p>
-                <button class="verMas">VER MÁS</button>
+                <button class="verMas"><a href="nuestra_miel.php">VER MÁS</a></button>
             </div>
             <div>
                 <figure><img src="img/cara_abejas.png" alt="icono"></figure>
@@ -43,16 +43,16 @@
             <p>Nuestros productos están certificados por los procesos <strong>100% ecológicos y orgánicos</strong> que tienen. </p>
             <ul>
                 <li>
-                    <figure><img src="img/logo_idk.jpg" alt="..."></figure>
+                    <figure><a href="https://ec.europa.eu/info/food-farming-fisheries/farming/organic-farming/becoming-organic-farmer#certification" target="_blank"><img src="img/logo_idk.jpg" alt="eu organic certification"></a></figure>
                 </li>
                 <li>
-                    <figure><img src="img/logo_usda.jpg" alt="..."></figure>
+                    <figure><a href="https://www.usda.gov/topics/organic" target="_blank"><img src="img/logo_usda.png" alt="logo de USDA"></a></figure>
                 </li>
                 <li>
-                    <figure><img src="img/logo_certimex.jpg" alt="..."></figure>
+                    <figure><a href="https://certimexsc.com/about.html" target="_blank"><img src="img/logo_certimex.jpg" alt="logo de CERTIMEX"></a></figure>
                 </li>
                 <li>
-                    <figure><img src="img/logo_sagarpa.jpg" alt="..."></figure>
+                    <figure><a href="https://www.gob.mx/agricultura" target="_blank"><img src="img/logo_sagarpa.jpg" alt="logo de SAGARPA"></figure>
                 </li>
             </ul>
         </section>
@@ -70,7 +70,7 @@
                 <p>Buscamos retribuir de manera <strong>justa y digna </strong>el trabajo de las familias indígenas tseltales de la coperativa <strong>Tsu'mbalXitalha'</strong>.</p>
                 <br>
                 <p>A travéz de la organización de productores aseguramos la comercialización y calidad de nuestros productos luchando asi contra la falta de oportunidades, marginación y aislamiento geográfico en el que nos encontramos.</p>
-                <button class="verMas">VER MÁS</button>
+                <button class="verMas"><a href="nuestra_casa.php" target="_self">VER MÁS</a></button>
             </div>
             <div>
                 <figure><img src="img/manos_abejas.png" alt="icono"></figure>
