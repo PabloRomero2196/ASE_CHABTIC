@@ -1,0 +1,132 @@
+<!Doctype html>
+<html lang="es-mx" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Oriana Piliado, Emiliano Villegas, Pablo Romero, Marcos Carmona">
+  <meta name="description" content="Formulario para contactar a Chabtic Nuestra Miel">
+    <meta name="keywords" content="formulario, form, contacto, ayuda, télefono, mail, e-mail, nombre, ayuda">  
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">                            
+     <title>Formulario de contacto</title>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>                    
+    
+    
+    <style> 
+    @font-face {
+    font-family: 'Whitney';
+    src: url('web_fonts/Whitney-MediumItalic.eot');
+    src: url('web_fonts/Whitney-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('web_fonts/Whitney-MediumItalic.woff2') format('woff2'),
+        url('web_fonts/Whitney-MediumItalic.woff') format('woff'),
+        url('web_fonts/Whitney-MediumItalic.ttf') format('truetype'),
+        url('web_fonts/Whitney-MediumItalic.svg#Whitney-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Whitney';
+    src: url('web_fonts/Whitney-Medium.eot');
+    src: url('web_fonts/Whitney-Medium.eot?#iefix') format('embedded-opentype'),
+        url('web_fonts/Whitney-Medium.woff2') format('woff2'),
+        url('web_fonts/Whitney-Medium.woff') format('woff'),
+        url('web_fonts/Whitney-Medium.ttf') format('truetype'),
+        url('web_fonts/Whitney-Medium.svg#Whitney-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Whitney';
+    src: url('web_fonts/Whitney-Bold.eot');
+    src: url('web_fonts/Whitney-Bold.eot?#iefix') format('embedded-opentype'),
+        url('web_fonts/Whitney-Bold.woff2') format('woff2'),
+        url('web_fonts/Whitney-Bold.woff') format('woff'),
+        url('web_fonts/Whitney-Bold.ttf') format('truetype'),
+        url('web_fonts/Whitney-Bold.svg#Whitney-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+    *{margin: 0%;padding: 0%;box-sizing: border-box;border: none;}
+    body{color:black;text-align: left;}
+    form{width: 100%;margin: 2% auto;padding: 0%;}
+    
+    fieldset{padding: 2%;background-color: white;border-radius: 0px; border: none;}
+    legend{text-indent: -9999px;}
+    p{margin-bottom: 20px;}
+
+    input {
+    color: black;
+    width: 100%;
+    padding: 10px 0px 15px 0px;
+    border-radius: 0px;
+    border-bottom: solid 1px black;
+    font-size: 15px;}    
+        
+
+    
+    input[type="submit"], input[type="reset"]{
+        width: 100px;
+        margin-left: 25px;
+        border-radius: 20px;
+        padding: 10px 0px;
+        color: black;
+        background-color: #FFDD55; 
+        border: none;
+        cursor: pointer;}
+        
+        input[type="submit"]:hover, input[type="reset"]:hover{
+        background: #6B853F; 
+        color:white;}
+
+    textarea{
+        width: 60%;
+        height: 60px;
+        margin:-20px;
+        padding-left: 5px;
+        vertical-align:text-top;}
+    
+        #textareaa {
+    border: 1px solid black;
+    height: 120px;
+    width: 100%;
+    border-radius: 0px;
+    margin-top: 35px;
+    margin-left: -60px;
+}
+    
+   
+    </style>
+ 
+    </head>
+    <body>
+    <form action="enviar.php" method="post">
+       
+        <fieldset>
+        <legend>&nbsp;&nbsp;&nbsp;&nbsp; Datos personales</legend>
+        <p>
+            <input name="first_name" type="text" required placeholder="Nombre">
+        </p>
+        <p>
+            <input name="last_name" type="text" required placeholder="Apellido">
+        </p>
+        <p>
+             <input name="email" type="email" required placeholder="E-mail">
+        </p>
+        <p>
+
+            <input name="telefono" type="numbers" required placeholder="Teléfono">
+        </p>
+
+        <legend> &nbsp;&nbsp;&nbsp;&nbsp;¿En qué te podemos ayuda?</legend>
+        <p>
+         <label><br>Asunto:</label>
+            <textarea id=textareaa name="comments" required maxlength="500"></textarea>
+        </p>
+    </fieldset>
+       <p><br>
+        <input type="submit" value="Enviar"> 
+        <input type="reset" value="Cancelar">
+       </p> 
+ </form>
+</body>
+</html>
