@@ -243,6 +243,46 @@ img {
         padding: 1em;
     }
 
+    .homeRecetas img {
+        padding: 0;
+    }
+
+    .contenedor12 figure,
+    .contenedor3 figure {
+        margin: 0;
+    }
+
+    .contenedor12 {
+        width: 50vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+    }
+
+    .contenedor3 {
+        width: 25vw;
+        margin: auto;
+    }
+
+    .img1 {
+        position: relative;
+        right: 8vw;
+        clip-path: polygon(0 50%, 25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%);
+    }
+
+    .img2 {
+        position: relative;
+        left: 8vw;
+        clip-path: polygon(0 50%, 25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%);
+    }
+
+    .img3 {
+        position: relative;
+        bottom: 13vw;
+        grid-area: img3;
+        clip-path: polygon(0 50%, 25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%);
+    }
+
     .redes {
         display: flex;
         flex-flow: row wrap;

@@ -117,7 +117,7 @@
             <p>A travéz de la organización de productores aseguramos la comercialización y calidad de nuestros productos
                 luchando asi contra la falta de oportunidades, marginación y aislamiento geográfico en el que nos
                 encontramos.</p>
-                <a href="www.facebook.com" class="verMas" target="_self">VER MÁS</a>
+            <a href="www.facebook.com" class="verMas" target="_self">VER MÁS</a>
         </div>
         <div>
             <figure><img src="img/manos_abejas.png" alt="icono"></figure>
@@ -129,7 +129,26 @@
         <h2>RECETAS</h2>
         <p>A continuación presentaremos recetas orgánicas hechas con nuesta miel orgánica Chabtic para brindar
             <strong>color, textura y sabor a tus paltillos.</strong></p>
-        <figure><img src="img/recetas.png" alt="recetas"></figure>
+
+        <div>
+            <div class="contenedor12">
+                <div class="img1">
+                    <figure><img src="img/img1.jpg" alt="img1"></figure>
+                </div>
+                <div class="img2">
+                    <figure><img src="img/img2.jpg" alt="img1"></figure>
+                </div>
+            </div>
+
+            <div class="contenedor3">
+                <div class="img3">
+                    <figure><img src="img/img3.jpg" alt="img1"></figure>
+                </div>
+            </div>
+
+        </div>
+
+
         <a href="www.facebook.com" class="verMas" target="_self">VER MÁS</a>
     </section>
 
