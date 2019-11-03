@@ -1,49 +1,45 @@
-/*----------------------------- LLAMAR FONT -------------------------------- */
 @font-face {
     font-family: 'Whitney';
-    src: url('web_fonts/Whitney-MediumItalic.eot');
-    src: url('web_fonts/Whitney-MediumItalic.eot?#iefix') format('embedded-opentype'),
-        url('web_fonts/Whitney-MediumItalic.woff2') format('woff2'),
-        url('web_fonts/Whitney-MediumItalic.woff') format('woff'),
-        url('web_fonts/Whitney-MediumItalic.ttf') format('truetype'),
-        url('web_fonts/Whitney-MediumItalic.svg#Whitney-MediumItalic') format('svg');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Whitney';
-    src: url('web_fonts/Whitney-Medium.eot');
-    src: url('web_fonts/Whitney-Medium.eot?#iefix') format('embedded-opentype'),
-        url('web_fonts/Whitney-Medium.woff2') format('woff2'),
-        url('web_fonts/Whitney-Medium.woff') format('woff'),
-        url('web_fonts/Whitney-Medium.ttf') format('truetype'),
-        url('web_fonts/Whitney-Medium.svg#Whitney-Medium') format('svg');
+    src: url('fonts/Whitney-Medium.eot');
+    src: url('fonts/Whitney-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Whitney-Medium.woff2') format('woff2'),
+        url('fonts/Whitney-Medium.woff') format('woff'),
+        url('fonts/Whitney-Medium.ttf') format('truetype'),
+        url('fonts/Whitney-Medium.svg#Whitney-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Whitney';
-    src: url('web_fonts/Whitney-Bold.eot');
-    src: url('web_fonts/Whitney-Bold.eot?#iefix') format('embedded-opentype'),
-        url('web_fonts/Whitney-Bold.woff2') format('woff2'),
-        url('web_fonts/Whitney-Bold.woff') format('woff'),
-        url('web_fonts/Whitney-Bold.ttf') format('truetype'),
-        url('web_fonts/Whitney-Bold.svg#Whitney-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
+    src: url('fonts/Whitney-Bold.eot');
+    src: url('fonts/Whitney-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Whitney-Bold.woff2') format('woff2'),
+        url('fonts/Whitney-Bold.woff') format('woff'),
+        url('fonts/Whitney-Bold.ttf') format('truetype'),
+        url('fonts/Whitney-Bold.svg#Whitney-Bold') format('svg');
+    font-weight: 700;
+    font-style: bold;
 }
 
-/*------------------------------SELECCIONES GENERALES------------------------*/
 * {
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-    font-size: 85%;
-    /* overflow-y: hidden */
+address,
+header,
+nav,
+section,
+aside,
+footer,
+article,
+figure,
+aside,
+li,
+a {
+    display: block;
 }
 
 img {
@@ -51,16 +47,33 @@ img {
     min-width: 100%;
 }
 
-/* For mobile: */
-@media only screen and (min-width: 320px) {
-    h2 {
-        font-size: 1.5em;
-    }
+body {
+    font-size: 62.5%;
+}
 
-    p {
-        font-size: 1em;
-    }
+body>div {
+    min-width: 320px;
+    max-width: 1280px;
+}
 
+h2 {
+    text-align: center;
+    font-family: 'Whitney';
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.verMas {
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 800;
+    background: #fcdf5e;
+    border: none;
+    border-radius: 30px;
 }
 
 /* For mobile: */
@@ -71,15 +84,15 @@ img {
 /*------------------------------INICIA HOME PABLO------------------------*/
 /* For movil: */
 @media only screen and (min-width: 320px) {
-
-    /* For mobile: */
-    body {
-        font-size: 1em;
+    p {
+        padding: 16px;
+        font-size: 1.22em;
+        line-height: normal;
     }
 
-    .body {
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
+    .nuestraMiel {
+        margin-top: 65px;
+        margin-bottom: 32px;
     }
 
     button {
@@ -92,12 +105,8 @@ img {
     }
 
     h2 {
-        text-align: center;
-    }
-
-    .verMas {
-        font-size: 15px;
-        margin: 15px;
+        font-size: 1.8em;
+        margin-bottom: 5px;
     }
 
     .displayNo {
@@ -105,10 +114,11 @@ img {
     }
 
     .verMas {
-        background: #fcdf5e;
-        border-radius: 15px;
-        border: none;
+        width: 63px;
+        margin: 8px auto;
+        padding: 6px;
     }
+
 
     .verMas:hover {
         font-size: large;
@@ -165,29 +175,27 @@ img {
     }
 
 
-    .nuestraMiel>div:nth-child(1) {
-        padding-right: 20px;
-    }
-
     .certificaciones {
+        margin-top: 65px;
+        margin-bottom: 32px;
+        text-align: center;
         border: solid #222;
         border-width: 0px 0px 3px 0px;
-        text-align: center;
-        padding: 40px;
     }
 
     .certificaciones ul {
         list-style: none;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         padding: 0px;
     }
 
     .colaboradores {
+        margin-top: 65px;
+        margin-bottom: 32px;
         border: solid #222;
         border-width: 0px 0px 3px 0px;
         text-align: center;
-        margin: 1em;
     }
 
     .colaboradores ul {
@@ -200,6 +208,8 @@ img {
     }
 
     .puntosDeVenta {
+        margin-top: 65px;
+        margin-bottom: 32px;
         border: solid #222;
         border-width: 0px 0px 3px 0px;
         padding: 1px;
@@ -222,65 +232,23 @@ img {
     }
 
     .cuidadoAbejas {
+        margin-top: 65px;
+        margin-bottom: 75px;
         border: solid #222;
         border-width: 0px 0px 3px 0px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
     }
 
-    .cuidadoAbejas div:nth-of-type(1) {
-        padding: 40px;
-    }
 
     .homeRecetas {
+        margin-top: 65px;
+        margin-bottom: 75px;
         text-align: center;
-        margin: 1em;
         border: solid #222;
         border-width: 0px 0px 3px 0px;
     }
 
     .homeRecetas>p {
         padding: 1em;
-    }
-
-    .homeRecetas img {
-        padding: 0;
-    }
-
-    .contenedor12 figure,
-    .contenedor3 figure {
-        margin: 0;
-    }
-
-    .contenedor12 {
-        width: 50vw;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin: auto;
-    }
-
-    .contenedor3 {
-        width: 25vw;
-        margin: auto;
-    }
-
-    .img1 {
-        position: relative;
-        right: 8vw;
-        clip-path: polygon(0 50%, 25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%);
-    }
-
-    .img2 {
-        position: relative;
-        left: 8vw;
-        clip-path: polygon(0 50%, 25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%);
-    }
-
-    .img3 {
-        position: relative;
-        bottom: 13vw;
-        grid-area: img3;
-        clip-path: polygon(0 50%, 25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%);
     }
 
     .redes {
@@ -297,7 +265,7 @@ img {
     .redes article a {
         width: 50%;
         margin-top: 2%;
-        margin: 1em;
+        margin: 1em auto;
     }
 
     lsi a {
@@ -803,12 +771,6 @@ iframe {
     img {
         max-width: 100%;
         min-width: 100%;
-        padding: 1em;
-    }
-
-    p {
-        text-align: center;
-        font-size: 15px;
     }
 
     figure {

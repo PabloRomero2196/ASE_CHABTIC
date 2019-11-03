@@ -7,14 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Equipo 4">
+    <meta name="description" content="En esta página encontrarás información acerca de la empresa Chabtic y sus diversos productos 100% orgánicos">
     <title>Chabtic</title>
 
     <!-- STYLES -->
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600&display=swap" rel="stylesheet">
 </head>
 
 <body class="body">
+    <div>
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v4.0">
     </script>
@@ -64,10 +66,9 @@
             <h2>NUESTRA MIEL</h2>
             <p>Chabtic es una empresa productora y comercializadora de miel de abeja, orgánica certificada. Producto del
                 trabajo de la coperativa <strong>Ts'umbal Xitalha'</strong>, conformada por familias tseltales
-                apicultoras en la Selva Norte de Chiapas, México.</p>
-            <br>
-            <p>Nuestra miel es cultivada entre la diversidad de la flora local y en armonía con la Madre Tierra, lo que
-                brinda un color, textura y sabor exquisito.</p>
+                apicultoras en la Selva Norte de Chiapas, México.
+                Nuestra miel es cultivada entre la diversidad de la flora local y en armonía con la Madre Tierra, lo que
+                brinda un color, textura y sabor exquisito. </p>
             <a href="www.facebook.com" class="verMas" target="_self">VER MÁS</a>
         </div>
         <div>
@@ -112,12 +113,10 @@
         <div>
             <h2>CUIDADO DE LAS ABEJAS</h2>
             <p>Buscamos retribuir de manera <strong>justa y digna </strong>el trabajo de las familias indígenas
-                tseltales de la coperativa <strong>Tsu'mbalXitalha'</strong>.</p>
-            <br>
-            <p>A travéz de la organización de productores aseguramos la comercialización y calidad de nuestros productos
+                tseltales de la coperativa <strong>Tsu'mbalXitalha'</strong>. <br> A través de la organización de productores aseguramos la comercialización y calidad de nuestros productos
                 luchando asi contra la falta de oportunidades, marginación y aislamiento geográfico en el que nos
                 encontramos.</p>
-            <a href="www.facebook.com" class="verMas" target="_self">VER MÁS</a>
+                <a href="www.facebook.com" class="verMas" target="_self">VER MÁS</a>
         </div>
         <div>
             <figure><img src="img/manos_abejas.png" alt="icono"></figure>
@@ -129,26 +128,7 @@
         <h2>RECETAS</h2>
         <p>A continuación presentaremos recetas orgánicas hechas con nuesta miel orgánica Chabtic para brindar
             <strong>color, textura y sabor a tus paltillos.</strong></p>
-
-        <div>
-            <div class="contenedor12">
-                <div class="img1">
-                    <figure><img src="img/img1.jpg" alt="img1"></figure>
-                </div>
-                <div class="img2">
-                    <figure><img src="img/img2.jpg" alt="img1"></figure>
-                </div>
-            </div>
-
-            <div class="contenedor3">
-                <div class="img3">
-                    <figure><img src="img/img3.jpg" alt="img1"></figure>
-                </div>
-            </div>
-
-        </div>
-
-
+        <figure><img src="img/recetas.png" alt="recetas"></figure>
         <a href="www.facebook.com" class="verMas" target="_self">VER MÁS</a>
     </section>
 
@@ -157,7 +137,7 @@
 
     <?php include 'footer.php' ?>
     <!--INCLUIR FOOTER-->
-
+</div>
     <!-- SCRIPTS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
